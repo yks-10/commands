@@ -1,0 +1,21 @@
+celery :
+  celery -A app.celery worker --loglevel=info
+
+
+django:
+  STARTING A PROJECT:
+    django-admin startproject projectname 
+  CREATING A PROJECT:
+    python manage.py startapp appname 
+  START SERVER:
+    python manage.py runserver 
+  CREATING MIGRATIONS:
+    python manage.py makemigrations 
+  MIGRATE:
+    python manage.py migrate
+  ADMIN PANEL:
+    python manage.py createsuperuser 
+  COLLECTSTATIC:
+    python manage.py collectstatic 
+  
+  
